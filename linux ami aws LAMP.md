@@ -10,6 +10,9 @@
 	
     #instalar nginx
     yum install nginx -y
+    
+    #iniciar automaticamente
+    sudo chkconfig nginx on
 ```
 
 - Instalar servidor de base de datos mysql 
