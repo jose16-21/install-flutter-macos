@@ -1,7 +1,7 @@
 # install flutter macos (spanish)
 Configuración de Flutter en Xcode y Android Studio.
 
-1. Descargar de la pagina oficial [pagina oficial flutter](https://flutter.io/docs/get-started/install/macos) el paquete o clonar del repositorio oficial, git clone -b beta https://github.com/flutter/flutter.git.
+1. Descargar de la [pagina oficial de flutter](https://flutter.io/docs/get-started/install/macos) el paquete o clonar del repositorio oficial, git clone -b beta https://github.com/flutter/flutter.git.
 
 2. Copiar carpeta Flutter en el directorio home del usuario, Ejecutar en la terminal batch cd ~  y verificar que en efecto existe dicha carpeta
 
