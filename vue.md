@@ -1,12 +1,32 @@
-install vue cli 
-npm i -g @vue/cli
+# Instalacion de de vue js
 
-crear un proyecto 
-vue create "Nombre del proyecto"
+## Instalar
+Se instala vuejs con el gestor de paquetes npm.
+``` bash 
+    $ npm i -g @vue/cli
+```
 
-crear proyecto de manera visual
-vue ui
+## Verificar version
+Si se desea verificar la version instalada de vuejs.
+``` bash 
+    $ vue --version
+```
 
-compilar produccion 
-npm run build
+
+## Crear un proyecto con vuejs
+Luego de instalar vuejs con npm 
+``` bash 
+    $ vue create "Nombre del proyecto"
+```
+
+## Crear proyecto de manera visual
+
+``` bash 
+    $ vue ui
+```
+
+## Compilar un proyecto a produccion 
+``` bash 
+    $ npm run build
+```
 

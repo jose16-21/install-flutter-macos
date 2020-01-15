@@ -55,7 +55,7 @@
 1. Actualizar paquetes:
 
 ``` bash 
-$ sudo yum update -y 
+    $ sudo yum update -y 
 
 # La opción -y instala las actualizaciones sin necesidad de confirmación.
 ```
@@ -69,7 +69,7 @@ $ sudo yum update -y
 
 3. correr el servicio de apache. 
 
-`$ sudo service httpd start`
+`   $ sudo service httpd start`
 
 4. verificar ip y tiene que estar ejecutandose.
 
