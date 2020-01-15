@@ -1,4 +1,4 @@
-# Instalacion de flutter
+# Instalacion de flutter en sistemas operativos mac.
 
 ## Configuracion de flutter enn Xcode y Android Studio.
 
@@ -8,7 +8,9 @@
 
 2. Copiar carpeta Flutter en el directorio home del usuario.
     - Ejecutar en la terminal batch:
-     `$ cd ~` 
+     ```sh 
+     $ cd ~
+     ``` 
      verificar que en efecto existe dicha carpeta
 
 3. Veficar variables de entorno:
