@@ -177,7 +177,7 @@ Una vez realizado esto, salvar el archivo y cerrarlo.
 
 o
 
-> http://IP-address/installer
+> http://direccion-ip-del-dominio/installer
 
 
 
