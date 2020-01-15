@@ -1,11 +1,27 @@
-1.	Crear el proyecto y obtener el directorio
-2.	Viajar al directorio y obtener la siguiente dependencia 
-´´composer require laravel/homestead –dev´´
-3.	listart el directorio  siguiente
-´´ls vendor/laravel/homestead/´´
+# Configuracion de Vagrant y Homestead
+
+## Pasos a seguir
+se deben seguir paso a paso para configurar un proyecto en vagrant.
+
+1.	Crear el proyecto y obtener el directorio.
+2.	Viajar al directorio y obtener la siguiente dependencia.
+
+``` bash 
+    $ composer require laravel/homestead –dev
+ ```
+3.	Listar el directorio.
+```bash 
+    $ ls vendor/laravel/homestead/
+```
 4.	Ejecutar siguiente comando para instalar homested
-´´vendor/bin/homestead make´´
-5.	Ejecutar el siguiente comando para vagrant
-´´Vagrant up´´
-6.	Como ingresar por ssh
-Posicionado en el directorio ´´vagrant ssh´´
+``` bash 
+    $ vendor/bin/homestead make 
+```
+5.	Ejecutar el siguiente comando para ejecutar el proyecto de vagrant con lo establecido en al archivo **vagrantfile**
+``` bash
+    $ vagrant up
+```
+6.	Luego del anterior comando, se debe ejecutar el siguiente comando, se debe ubicar en el directorio del proyecto de vagrant.
+``` bash 
+    $ vagrant ssh
+```
