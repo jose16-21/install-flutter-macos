@@ -28,6 +28,8 @@
     Instalar mysql
 
     # yum install mysql56-server -y
+    
+    service mysqld start
 
     Verificar instalacion segura
 
