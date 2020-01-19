@@ -50,6 +50,10 @@
     > EXIT;
 
 ```
+conectar remoto
+cd /etc/
+
+bind-address        = 0.0.0.0
 
 
 ## Configuracion
