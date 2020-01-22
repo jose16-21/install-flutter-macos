@@ -7,3 +7,9 @@ sudo service jenkins start
 chkconfig jenkins on
 ingresar al puerto 8080
 sudo vi /var/lib/jenkins/secrets/initialAdminPassword
+
+sudo service jenkins stop
+sudo yum clean all
+sudo yum -y remove jenkins
+sudo rm -rf /var/cache/jenkins
+sudo rm -rf /var/lib/jenkins/
