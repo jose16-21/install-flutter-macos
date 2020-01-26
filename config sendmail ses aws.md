@@ -49,7 +49,9 @@ FEATURE(masquerade_entire_domain)dnl
 
 9. En la línea de comandos, escriba el siguiente comando para restablecer los permisos de *sendmail.cf* a solo lectura:
 
-`sudo chmod 644 /etc/mail/sendmail.cf`
+`sudo chmod 644 /etc/mail/sendmail.cf` 
+
+si tenera error instalar el siguiete `yum -y install sendmail-cf`
 
 10. En la línea de comandos, escriba el siguiente comando para reiniciar Sendmail:
 
