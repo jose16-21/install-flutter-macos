@@ -9,6 +9,15 @@ sudo usermod -a -G docker ec2-user
 
 docker info
 
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
+docker-compose --version
+
+
 descarga imagen de nginx
 docker run -d nginx:1.15.7
 
@@ -38,5 +47,7 @@ docker-compose --no-ansi up -d  --force-recreate --remove-orphans
 docker build -t smartapicontroller .
 
 docker run -e ASPNETCORE_ENVIRONMENT=Development -d -p 4100:80 --name smartapicontroller smartapicontroller
+
+docker-compose -f "docker-compose.yml" up -d --build
 
 
